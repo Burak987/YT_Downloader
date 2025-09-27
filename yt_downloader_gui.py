@@ -9,8 +9,8 @@ import webbrowser
 
 # ==== Verze a URL k aktualizaci ====
 APP_VERSION = "0.1.0"
-VERSION_URL = "https://github.com/Burak987/YT_Downloader/blob/main/version.txt"   # odkaz na textový soubor s verzí
-UPDATE_URL = "https://github.com/Burak987/YT_Downloader/blob/main/yt_downloader_gui.exe"  # odkaz na exe
+VERSION_URL = "https://raw.githubusercontent.com/Burak987/YT_Downloader/main/version.txt"
+UPDATE_URL = "https://github.com/Burak987/YT_Downloader/releases/latest/download/yt_downloader_gui.exe"
 
 class YTDownloaderApp(tk.Tk):
     def __init__(self):
